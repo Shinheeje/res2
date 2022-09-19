@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* 1200px 보다 작을때*/
+@media (max-width:1199px){
+  #contents{
+    width: 100%;
+  }
+  section{
+    width: 50%;
+    height: 200px;
+  }
+  .footer_in{
+    width: 100%;
+  }
+  .header_in{
+    width: 100%;
+    padding:0 10px;
+  }
+}
+
+/* 960px 보다 작을때*/
+@media (max-width:960px){
+  .header_in h1{
+    font-size: 25px;
+    
+  }
+  .sign span{
+    display: none;
+  }
+  .header_in nav a{
+    margin: 0 7px;
+    font-size: 15px;
+  }
+  nav{
+    margin-left: 150px;
+  }
+}
+
+/* 400px 보다 작을때*/
+@media (max-width:720px){
+  section{
+    width: 100%;
+  }
+  .header_in h1{
+    position: absolute;
+    left: 50%;
+    line-height: 50px;
+    transform: translate(-50%);
+    float: none;
+  }
+  .footer_in{
+    text-align: center;
+  }
+  .header_in{
+    height: 50px;
+  }
+  .header_in .allBtn{
+    display: block;
+    line-height: 50px;
+  }
+  .header_in .sign{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    line-height: 50px;
+    float: none;
+  }
+  section{
+    float: none;
+    width: 100%;
+  }
+  .footer_in{
+    text-align: center;
+  }
+  .header_in nav{
+    position: fixed;
+    width: 300px;
+    left: -300px;
+    top: 0;
+    bottom: 0;
+    margin-left: 0;
+    background-color: white;
+    padding: 50px 0 0 20px;
+  }
+  .header_in nav li{
+    float: none;
+  }
+  .header_in nav a{
+    margin: 0;
+    font-size: 18px;
+    line-height: 40px;
+    color: black;
+  }
+  .header_in nav button{
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+}

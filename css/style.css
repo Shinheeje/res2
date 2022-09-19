@@ -1,0 +1,91 @@
+@charset "UTF-8";
+a{
+  color: inherit; 
+}
+li::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+#contents::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+header{
+  background-color:rgb(152, 162, 248);
+  color: white;
+}
+.header_in{
+  width: 1200px;
+  height: 100px;
+  margin: auto;
+}
+.header_in h1{
+  float: left;
+  line-height: 100px;
+}
+.header_in nav{
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+}
+.header_in nav ul{
+
+}
+.header_in nav li{
+  float: left;
+}
+.header_in nav a{
+  display: block;
+  margin: 0 15px;
+  font-size: 16px;
+  line-height: 100px;
+}
+.header_in nav button{
+  display: none;
+}
+.header_in .allBtn{
+  display: none;
+}
+.header_in .sign{
+  float: right;
+  line-height: 100px;
+}
+.fa-kiwi-bird{
+  color: green;
+}
+#visual{
+  height: 500px;
+  background: rgb(153, 140, 69);
+}
+#contents{
+  width: 1200px;
+  margin: auto;
+}
+section{
+  float: left;
+  width: 25%;
+  height: 300px;
+}
+.con1{
+  background-color: rgb(230, 245, 144);
+}
+.con2{
+  background-color: rgb(128, 250, 240);
+}
+.con3{
+  background-color: rgb(160, 224, 253);
+}
+.con4{
+  background-color: rgb(243, 179, 218);
+}
+
+footer{
+  background-color: rgb(207, 211, 250);
+}
+.footer_in{
+  width: 1200px;
+  height: 70px;
+  margin: auto;
+}
